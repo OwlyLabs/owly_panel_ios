@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OwlyPanel_Example' do
+  pod 'OwlyPanel', :path => '../'
+
+  target 'OwlyPanel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
