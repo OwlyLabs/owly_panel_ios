@@ -1,0 +1,22 @@
+{
+  "name": "OwlyPanel",
+  "version": "0.1.0",
+  "summary": "A short description of OwlyPanel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Serg Rudenko/OwlyPanel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Serg Rudenko": "account@owlylabs.com"
+  },
+  "source": {
+    "git": "https://github.com/Serg Rudenko/OwlyPanel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OwlyPanel/Classes/**/*"
+}

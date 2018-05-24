@@ -1,0 +1,6 @@
+framework module OwlyPanel {
+  umbrella header "OwlyPanel-umbrella.h"
+
+  export *
+  module * { export * }
+}

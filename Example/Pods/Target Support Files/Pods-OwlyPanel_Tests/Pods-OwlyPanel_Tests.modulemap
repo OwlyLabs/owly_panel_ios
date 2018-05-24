@@ -1,0 +1,6 @@
+framework module Pods_OwlyPanel_Tests {
+  umbrella header "Pods-OwlyPanel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
