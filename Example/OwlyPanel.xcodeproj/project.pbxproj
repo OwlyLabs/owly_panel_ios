@@ -60,10 +60,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		60E0F492BC63BFC2924AEECE /* Pods_OwlyPanel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OwlyPanel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79E9750E2825724BADBEBE80 /* OwlyPanel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OwlyPanel.podspec; path = ../OwlyPanel.podspec; sourceTree = "<group>"; };
-		822C32100F694F0D1F5C3A7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		79E9750E2825724BADBEBE80 /* OwlyPanel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OwlyPanel.podspec; path = ../OwlyPanel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		822C32100F694F0D1F5C3A7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		84FCBF672F1A6366C324ECF3 /* Pods-OwlyPanel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlyPanel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwlyPanel_Example/Pods-OwlyPanel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		86CD6B5046C5D3AC96514D43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		86CD6B5046C5D3AC96514D43 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AD68998B79F9D6E092B6DF4 /* Pods-OwlyPanel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlyPanel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OwlyPanel_Tests/Pods-OwlyPanel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5C9767F9035A77E85D76A63 /* Pods-OwlyPanel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OwlyPanel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OwlyPanel_Tests/Pods-OwlyPanel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Serg Rudenko";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 458R6KUD59;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 84FCBF672F1A6366C324ECF3 /* Pods-OwlyPanel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 458R6KUD59;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OwlyPanel/OwlyPanel-Prefix.pch";
 				INFOPLIST_FILE = "OwlyPanel/OwlyPanel-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 393A848E442D5049ECAC2A16 /* Pods-OwlyPanel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 458R6KUD59;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OwlyPanel/OwlyPanel-Prefix.pch";
 				INFOPLIST_FILE = "OwlyPanel/OwlyPanel-Info.plist";
