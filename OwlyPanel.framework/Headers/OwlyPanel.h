@@ -20,7 +20,14 @@
 
 +(void)sendEvent:(NSString*)titleEvent;
 
-+(void)sendPurchaseEventWithAmount:(float)amount currency:(NSString*)currency;
++(void)sendExternalPurchaseEventWithAmount:(float)amount
+                          currency:(NSString*)currency
+                            title:(NSString*)title
+                            locale:(NSString*)locale
+                          order_id:(NSString*)order_id
+                    transaction_id:(NSString*)transaction_id
+                  transaction_date:(NSDate*)transaction_date;
+
 
 +(OPUserProfile*)getCurrentUser;
 

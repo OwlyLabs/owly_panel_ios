@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OwlyPanel'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = 'Automatic session/events tracking'
 
   s.description      = 'Automatic session tracking depending on app background/foreground states, Automatic and custom events, Profile manager per app with both proprietary and custom fields '
