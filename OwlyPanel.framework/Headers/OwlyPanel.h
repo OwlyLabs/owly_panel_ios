@@ -28,9 +28,7 @@
                     transaction_id:(NSString*)transaction_id
                   transaction_date:(NSDate*)transaction_date;
 
-
 +(OPUserProfile*)getCurrentUser;
-
 +(void)updateUserProfile:(OPUserProfile*)profile;
 
 @end
